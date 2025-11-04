@@ -11,14 +11,18 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">CodeQuest</div>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="nav-menu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="hamburger">Menu</div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </div>
     </nav>
 
@@ -36,7 +40,7 @@
             <img src="images/explorer-avatar.jpg" alt="Moreen Watiri - Web Explorer" class="about-img">
             <div class="about-text">
                 <p>From novice trails to coding summits, I've journeyed through tutorials like this one to build worlds with code. Passionate about responsive designs that adapt like a true adventurer.</p>
-                <p>Current level: Junior Web Wanderer. Next milestone: Full-stack frontiers</p>
+                <p>Current level: Junior Web Wanderer. Next milestone: Full-stack frontiers!</p>
             </div>
         </div>
     </section>
@@ -69,13 +73,13 @@
         <h2>Past Expeditions</h2>
         <div class="projects-grid">
             <div class="project-card">
-                <img src="images/project1.jpg" alt="Project 1">
+                <img src="images/project1.jpg" alt="Treasure Map App">
                 <h3>Treasure Map App</h3>
                 <p>A CSS-animated map highlighting web hotspots. Live demo of flexbox magic.</p>
                 <a href="#" class="project-link">View Expedition</a>
             </div>
             <div class="project-card">
-                <img src="images/project2.jpg" alt="Project 2">
+                <img src="images/project2.jpg" alt="Compass Quiz">
                 <h3>Compass Quiz</h3>
                 <p>Interactive form-based quiz on dev directions. Pure HTML validation.</p>
                 <a href="#" class="project-link">View Expedition</a>
@@ -94,7 +98,9 @@
     </section>
 
     <footer class="footer">
-        <p>© 2025 Moreen Watiri. "The code is the map (adventure awaits!)"</p>
+        <p>© 2025 Moreen Watiri. "The code is the map"</p>
     </footer>
+
+    <script src="script.js"></script> 
 </body>
 </html>
